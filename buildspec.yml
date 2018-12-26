@@ -11,3 +11,4 @@ artifacts:
     - app.js
     - package.json
     - node_modules/**/*
+    - bin/*
