@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo installing NPM packages
+      - npm install
+artifacts:
+  type: zip
+  files:
+    - app.js
+    - package.json
+    - node_modules/**/*
