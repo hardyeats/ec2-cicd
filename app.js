@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.port || 8080;
 
-app.get('/', (req, res) => {
+app.get('/node', (req, res) => {
   res.send('hello, world')
 })
 
