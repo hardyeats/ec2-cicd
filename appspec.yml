@@ -15,6 +15,10 @@ hooks:
     - location: bin/stop.sh
       timeout: 120
       runas: ec2-user
+  BeforeInstall:
+    - location: bin/delete.sh
+      timeout: 120
+      runas: ec2-user
   ApplicationStart:
     - location: bin/run.sh
       timeout: 120

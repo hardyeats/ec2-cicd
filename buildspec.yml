@@ -6,6 +6,7 @@ phases:
       - echo installing NPM packages
       - npm install
 artifacts:
+  type: zip
   files:
     - appspec.yml
     - app.js
