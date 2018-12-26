@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf $HOME/node/node_modules
+rm -rf $HOME/node
